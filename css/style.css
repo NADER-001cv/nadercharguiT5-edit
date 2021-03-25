@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.blockone{
+    width: 20%;
+    background-color: #F44336;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.content{
+  position: relative;
+  top: 50px;
+  left: 20px;
+ 
+  padding: 30px
+}
+
+.company_name  p, span{
+    color: white;
+    font-size:2rem;
+    text-transform: capitalize;
+}
+
+
+
+.list li a{
+    display: block;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.list li a:hover{
+    color: black;
+    background-color: white;
+    font-size: 2rem;
+
+
+    
+}
+
+
+
+/*      container general block 2    */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.blocktwo{
+    width: 80%;
+ 
+    position: absolute;
+    top: 0;
+    left: 22%;
+    padding-left: 15px;
+    height: 200vh;
+}
+
+.show_case p{
+    font-size:2.4rem ;
+    font-weight: bold;
+}
+
+
+
+.mainsite  {
+    margin-top: 50px;
+}
+
+.mainsite h1{
+    font-size: 4rem;
+  
+    text-transform: capitalize;
+}
+
+.show_case{
+    margin-top: 35px;
+    line-height: 70px;
+    border-bottom: 7px solid #F44336;
+    width: 40px;
+    
+   
+}
+
+.show_case hr{
+    height: 5px;
+}
+
+.show_case p{
+    color: #F44336;
+}
+
+
+
+/*     work with images here       */
+
+
+
+.box_img{
+    width:100%;
+    margin-top: 40px;
+   text-align: center;
+}
+
+
+
+.design_img{
+    line-height: 40px;
+}
+
+
+
+
+.box{
+width: 45%;
+float: left;
+
+
+}
+
+.box img{
+width: 100%;
+padding: 10px;
+}
+
+
+
+
+
+
+
+.clr{
+    clear: both;
+}
+
+
+/*  block services here */
+
+#services{
+
+    margin-top: 80px;
+}
+.services_head h2{
+    font-size:2.4rem ;
+    font-weight: bold;
+    color: #F44336;
+}
+.infoservecie{
+    width: 90%;
+    
+}
+.services_one{
+    float: right;
+    width: 100%;
+}
+.services_one > p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/*       block  design                    */
+
+#design{
+
+    margin-top: 80px;
+}
+.design_head{
+    
+}
+.design_head h2{
+
+    font-size:2.4rem ;
+    font-weight: bold;
+    color: #F44336;
+}
+.allinfo_design{
+    width: 90%;
+}
+.work_images{
+    width:90%;
+}
+
+
+.box_img_same{
+
+    float: left;
+    width:33% ;
+}
+.about_img img{
+    width:100%;
+    padding:10px ;
+}
+
+.clr{
+    clear: both;
+}
+
+
+
+/*  block package  */
+#packages{
+    margin-top:70px;
+}
+.head_paclages{
+    margin-bottom: 15px;
+
+}
+.first_pack{
+    margin-bottom:20px;
+    line-height: 40px;
+}
+.first_pack h2 {
+    margin-bottom: 25px;
+}
+.package_body{
+    width: 100%;
+    text-align: center;
+    line-height:40px;
+}
+
+.pack_one{
+    float: left;
+    width: 45% ;
+    background-color:#F1F1F1;
+}
+
+.pack_one > h3{
+    background-color:#616161;
+    color:#ffffff;
+    padding:15px ;
+    width:100%;
+}
+
+
+.pack_two{
+    float: left;
+    width: 45% ;
+    background-color:#F1F1F1;
+}
+.pack_two   > h3{
+    background-color:#F44336;
+    color:#ffffff;
+    padding:15px ;
+}
+
+
+
+.pack_onebox{
+    width: 100%;
+    padding:5px;
+}
+.clr{
+    clear: both;
+}
+
+.one button:hover{
+    background-color: black;
+    color: white;
+}
+
+/*   block contact  */
+
+#Contact{
+    margin-top:70px;
+}
